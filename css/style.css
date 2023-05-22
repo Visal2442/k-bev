@@ -155,7 +155,7 @@ figure {
 @media screen and (max-width: 768px) {
   .fh5co-cover,
   .fh5co-hero {
-    height: 700px;
+    height: 350px;
   }
 }
 
@@ -192,7 +192,7 @@ figure {
 
 @media screen and (max-width: 768px) {
   .fh5co-cover .display-t {
-    height: 600px;
+    height: 350px;
   }
 }
 
