@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    image: nginx:alpine
+    container_name: sal-container
+    ports:
+      - "80:80"        #host-port:container-port, host-port is in nginx listen port
+    volumes:
+      - ../k-bev:/usr/share/nginx/html
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
